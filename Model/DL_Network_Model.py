@@ -23,9 +23,9 @@ class Net(nn.Module):
         #dropout example: https://medium.com/@zhang_yang/scaling-in-neural-network-dropout-layers-with-pytorch-code-example-11436098d426
         #x = self.dropout1(x)
         x = F.relu(self.fc2(x))
-        x = self.dropout2(x)
+        #x = self.dropout2(x)
         x = F.relu(self.fc3(x))
-        x = self.dropout3(x)
+        #x = self.dropout3(x)
         x = F.relu(self.fc4(x))
         #x = self.dropout4(x)
         x = self.fc5(x)
