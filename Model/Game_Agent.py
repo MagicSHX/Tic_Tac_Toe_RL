@@ -9,7 +9,7 @@ class game_agent:
         #print(self.verify_Matrix.argmax())
     def restart(self):
         print(self.input_string)
-        return('dsff')
+        return('abc')
     def next_action(self):
         print('next action')
     def result(self):
@@ -28,7 +28,6 @@ class game_agent:
                 #print(1)
                 #print(a,b,c)
                 status = True
-                return status
                 break
         return status
 
