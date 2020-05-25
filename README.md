@@ -15,7 +15,7 @@
 Add more general information about project. What the purpose of the project is? Motivation?
 
 ## Demo
-![Example screenshot](./img/AI medium record.gif)
+![Example screenshot](img/AI medium record.gif)
 
 ## Technologies
 * Tech 1 - version 1.0
