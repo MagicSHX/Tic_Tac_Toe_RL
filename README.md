@@ -30,20 +30,17 @@ parameter setup:
 
 button = 1: RL model + predict via latest model <br />
 button = 0: Only predict via latest model <br />
-`button = 1` <br />
+existing setup: `button = 1` <br />
+<br />
 train_model_from_crash = 1: train model from scratch <br />
 train_model_from_crash = 0: reload saved model last time and continue with training. <br />
-`train_model_from_crash = 0` <br />
-How many Reinforcement learning loop will be trained: <br />
-`main_loop_count = 20` <br />
-Epoch size under each Reinforcement learning loop: <br />
-`epoch_size = 3000` <br />
-How many epochs to print out 1 loss: <br />
-`steps_for_printing_out_loss = 1000` <br />
-Model learning rate: <br />
-`learning_rate = 0.2` <br />
-DQ learning rate: <br />
-`DQ_ratio = 0.75` <br />
+existing setup: `train_model_from_crash = 0` <br />
+<br />
+How many Reinforcement learning loop will be trained: `main_loop_count = 20` <br />
+Epoch size under each Reinforcement learning loop: `epoch_size = 3000` <br />
+How many epochs to print out 1 loss: `steps_for_printing_out_loss = 1000` <br />
+Model learning rate: `learning_rate = 0.2` <br />
+DQ learning rate: `DQ_ratio = 0.75` <br />
 
 ## Features
 List of features ready and TODOs for future development
