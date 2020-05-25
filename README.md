@@ -23,21 +23,37 @@ My insterest is in Reinforcement learning and multi-agent system, using project 
 
 ## Setup
 * Download project into local folder
-* For playing game, please open "Game UI.ipynb" and execute, you will see a window pops-up as per demo
-* For training the Reinforcement Learning model, please open "" and execute. There are few parameters can be setup before execution:
+* To play game against pre-trained AI, please open "Game UI.ipynb" and execute, you will see a window pops-up as per demo
+* To try to train the Reinforcement Learning model from scratch/ last saved model, please open "RL_model.ipynb". There are few parameters inside can be setup before execution:
 
-Show examples of usage:
-`put-your-code-here`
+parameter setup:
+
+button = 1: RL model + predict via latest model
+button = 0: Only predict via latest model
+`button = 1`
+train_model_from_crash = 1: train model from scratch
+train_model_from_crash = 0: reload saved model last time and continue with training.
+`train_model_from_crash = 0`
+How many Reinforcement learning loop will be trained:
+`main_loop_count = 20`
+Epoch size under each Reinforcement learning loop:
+`epoch_size = 3000`
+How many epochs to print out 1 loss:
+`steps_for_printing_out_loss = 1000`
+Model learning rate:
+`learning_rate = 0.2`
+DQ learning rate:
+`DQ_ratio = 0.75`
 
 ## Features
 List of features ready and TODOs for future development
 * Reinforcement Learning model, to let AI plays against last version of AI, to gain training data. Then enahnced training data will be used to continue training latest AI model.
 * A simple game UI has been developed, to provide an interface for human player plays with AI model.
-* machine learning model used for this model is light level. (pt model is only 24 kb)
+* Machine learning model used for this model is light level(pt model is only 24 kb), as game is not too complex, it has to be enhanced for a more complex game 
 
 To-do list:
-* Will develop a "Connect Four" game with Reinforcement learning model,as the game itself is more fair to both players, compared with current game.
-* Add some noise(random steps) into training output, so that AI can practice more scenarios automatically, without relying too much on initial training data.
+* Will develop a "Connect Four" game with Reinforcement learning model. Compared with this game here, game rule itself will be more fair to both players.
+* Add some noise(random steps) into training output, so that AI can auto-generate more scenarios, without relying too much on initial training scenario.
 
 ## Status
 Project is: _in progress_
@@ -46,4 +62,4 @@ Project is: _in progress_
 My insterest is in Reinforcement learning and multi-agent system, using project like this to practice and gain experience.
 
 ## Contact
-Created by [@MagicSHX](shaohongxu0509@gmail.com) - feel free to contact me!
+Created by 'shaohongxu0509@gmail.com' - feel free to contact me!
