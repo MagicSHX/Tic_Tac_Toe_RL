@@ -43,7 +43,7 @@ Model learning rate: `learning_rate = 0.2` <br />
 DQ learning rate: `DQ_ratio = 0.75` <br />
 
 ## Features
-List of features ready and TODOs for future development
+List of features ready:
 * Reinforcement Learning model, to let AI plays against last version of AI, to gain training data. Then enahnced training data will be used to continue training latest AI model.
 * A simple game UI has been developed, to provide an interface for human player plays with AI model.
 * Machine learning model used for this model is light level(pt model is only 24 kb), as game is not too complex, it has to be enhanced for a more complex game 
