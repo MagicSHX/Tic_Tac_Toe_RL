@@ -3,7 +3,7 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
+* [Demo](#demo)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -12,38 +12,38 @@
 * [Contact](#contact)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+My insterest is in Reinforcement learning and multi-agent system, using project like this to practice and gain experience.
 
 ## Demo
 ![Example Demo](img/AI.gif)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Python 3 - pytorch
+* Python 3 - tkinter
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+* Download project into local folder
+* For playing game, please open "Game UI.ipynb" and execute, you will see a window pops-up as per demo
+* For training the Reinforcement Learning model, please open "" and execute. There are few parameters can be setup before execution:
 
-## Code Examples
 Show examples of usage:
 `put-your-code-here`
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Reinforcement Learning model, to let AI plays against last version of AI, to gain training data. Then enahnced training data will be used to continue training latest AI model.
+* A simple game UI has been developed, to provide an interface for human player plays with AI model.
+* machine learning model used for this model is light level. (pt model is only 24 kb)
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Will develop a "Connect Four" game with Reinforcement learning model,as the game itself is more fair to both players, compared with current game.
+* Add some noise(random steps) into training output, so that AI can practice more scenarios automatically, without relying too much on initial training data.
 
 ## Status
 Project is: _in progress_
 
 ## Inspiration
-Add here credits. Project inspired by..., based on...
+My insterest is in Reinforcement learning and multi-agent system, using project like this to practice and gain experience.
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [@MagicSHX](shaohongxu0509@gmail.com) - feel free to contact me!
