@@ -1,5 +1,6 @@
 # Tic_Tac_Toe_RL
 > Create a Tic Tac Toe game agent with Reinforcement Learning model
+> for a quick introduction, you can take a look at a 2 min video here: https://www.youtube.com/watch?v=L0fXuYXd088&t=7s
 
 ## Table of contents
 * [General info](#general-info)
