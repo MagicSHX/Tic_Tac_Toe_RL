@@ -27,7 +27,7 @@ This project with the game chosen follows all terminology discussed above. Inste
 ## Setup
 * Download project into local folder
 * To play game against pre-trained AI, please open "Game UI.ipynb" and execute, you will see a window pops-up as per demo
-* To try to train the Reinforcement Learning model from scratch/ last saved model, please open "RL_model.ipynb". There are few parameters inside can be setup before execution:
+* To train the Reinforcement Learning model from scratch/ last saved model, please open "RL_model.ipynb". There are few parameters inside can be setup before execution:
 
 parameter setup:
 
@@ -56,10 +56,10 @@ To-do list:
 * Add some noise(random steps) into training output, so that AI can auto-generate more scenarios, without relying too much on initial training scenario.
 
 ## Status
-Project is: _in progress_
+Project is: _1st version completed_
 
 ## Inspiration
-My insterest is in Reinforcement learning and multi-agent system, using project like this to practice and gain experience.
+My insterest is in Reinforcement learning, multi-agent system and other DL related area, using project like this to practice and gain experience.
 
 ## Contact
 Created by 'shaohongxu0509@gmail.com' - feel free to contact me!
