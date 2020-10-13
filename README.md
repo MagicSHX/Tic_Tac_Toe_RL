@@ -11,6 +11,7 @@
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
+* [Appendix](#appendix)
 
 ## General info
 One dependency of machine learning supervised learning is large amount of labeled training data, sometimes it will be a bottom neck stops neural network’s performance going to next level. Introduction of Reinforcement learning enables an environment setup, with help of which model can create the training data by itself. Whole idea of Reinforcement learning simulates the way of human does, which designed to allow agent interacting with environment to gain knowledge/ agent talent. Not too difficult to understand, agent performance will not be enhanced into an expected direction without a score’s help to quantify how good/bad performance of recent game play by agent, as never forget the nature of Reinforcement learning is still supervised learning. Score acts as an exam role, of which result will become a new set training data for model to train a better performance agent next time. 
@@ -63,3 +64,7 @@ My insterest is in Reinforcement learning, multi-agent system and other DL relat
 
 ## Contact
 Created by 'shaohongxu0509@gmail.com' - feel free to contact me!
+
+## Appendix
+Script workflow:
+![Script Workflow](img/Script workflow.jpg)
