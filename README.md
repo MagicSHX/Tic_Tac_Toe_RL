@@ -67,4 +67,4 @@ Created by 'shaohongxu0509@gmail.com' - feel free to contact me!
 
 ## Appendix
 Script workflow:
-![Script Workflow](img/Script workflow.jpg)
+![Example Demo](img/Script workflow.jpg)
